@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here-change-in-production'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['unit-test-case-generator-8rie.onrender.com','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['unitcasegenerator.onrender.com','localhost', '127.0.0.1']
 
 
 # Application definition
