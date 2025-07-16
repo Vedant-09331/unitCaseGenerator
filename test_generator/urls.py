@@ -2,7 +2,8 @@ from django.urls import path
 from . import views
 
 app_name = 'test_generator'
-
+ 
 urlpatterns = [
-    path('', views.home, name='home'),  # This maps the root URL to your home view
+    path('', views.home, name='home'),
+    path('generate/', views.generate_test, name='generate_test'),
 ] 
